@@ -69,6 +69,8 @@
     margin-top: 10px;
     border: 1px solid transparent;
     height: 38%;
+    text-align: justify;
+    padding: 10px;
   }
   
   .projects>div>div:nth-child(2)>div{
@@ -232,7 +234,7 @@
     }
   }
   
-   @media only screen and (min-width: 426px) and (max-width: 768px){
+   /* @media only screen and (min-width: 626px) and (max-width: 768px){
     .blogs{
       border: 1px solid transparent;
       display: grid;
@@ -257,9 +259,9 @@
     .dropdown{
       display: unset;
     }
-  } 
+  }  */
   
-   @media only screen and (min-width: 376px) and (max-width: 425px){
+   @media only screen and (min-width: 376px) and (max-width: 795px){
     .skills{
       border: 1px solid transparent;
       display: grid;

@@ -423,7 +423,7 @@ code {
     color: inherit; }
 
  #profileimage{
-  content-visibility: hidden;
+  content-visibility: initial;
  }   
 
 #nameDiv{
@@ -3870,17 +3870,17 @@ input[type="button"].btn-block {
 
 .card-img {
   width: 100%;
-  border-radius: calc(0.25rem - 1px); }
+  border-radius: calc(0.25rem - 0.30px); }
 
 .card-img-top {
   width: 100%;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px); }
+  border-top-left-radius: calc(0.25rem - 0.30px);
+  border-top-right-radius: calc(0.25rem - 0.30px); }
 
 .card-img-bottom {
   width: 100%;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px); }
+  border-bottom-right-radius: calc(0.25rem - 0.30px);
+  border-bottom-left-radius: calc(0.25rem - 0.30px); }
 
 .card-deck {
   display: -webkit-box;
@@ -8788,7 +8788,7 @@ h1, h2, h3, h4, h5,
   .ftco-about .img-about .img {
     display: block;
     width: 100%;
-    border-radius: 90px;
+    border-radius: 40px;
     position: relative;
     z-index: 1; }
 
